@@ -63,7 +63,7 @@
         <arguments>
           <argument>
             <kind>2</kind>
-            <string>Congratulations, you win! Type your name into the scoreboard and play again to get a better score!</string>
+            <string>Congratulations, you win! If you have Discord running, check your status to see your score!</string>
           </argument>
         </arguments>
       </action>
@@ -476,6 +476,8 @@
           <argument>
             <kind>1</kind>
             <string>highscore_add("Player", score);
+discord_update_presence("Score: at least 1, probably","In the menu","icon","");
+
 </string>
           </argument>
         </arguments>

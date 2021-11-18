@@ -46,6 +46,11 @@
           <argument>
             <kind>1</kind>
             <string>texture_set_interpolation(false);
+
+discord_init_dll();
+discord_init_app("910661657343184896");
+discord_update_presence("","In the menu","icon","");
+
 </string>
           </argument>
         </arguments>
