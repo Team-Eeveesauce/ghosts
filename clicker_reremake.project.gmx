@@ -4,7 +4,7 @@
     <Config>Configs\Default</Config>
     <Config>Configs\NoDiscordIntegration</Config>
   </Configs>
-  <datafiles number="6" name="datafiles">
+  <datafiles number="7" name="datafiles">
     <datafile>
       <name>discord_rich_presence.dll</name>
       <exists>0</exists>
@@ -103,6 +103,9 @@
       <script>scripts\discord_free_dll.gml</script>
     </scripts>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\fnt_ghosts</font>
+  </fonts>
   <objects name="objects">
     <objects name="ghosts">
       <object>objects\obj_menu_ghost</object>

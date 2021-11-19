@@ -237,7 +237,7 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>completecount</string>
+            <string>global.selfaware</string>
           </argument>
           <argument>
             <kind>0</kind>
