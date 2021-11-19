@@ -2,6 +2,7 @@
 <assets>
   <Configs name="configs">
     <Config>Configs\Default</Config>
+    <Config>Configs\NoDiscordIntegration</Config>
   </Configs>
   <datafiles number="6" name="datafiles">
     <datafile>
@@ -16,6 +17,9 @@
       <store>0</store>
       <ConfigOptions>
         <Config name="Default">
+          <CopyToMask>9223372036854775807</CopyToMask>
+        </Config>
+        <Config name="NoDiscordIntegration">
           <CopyToMask>9223372036854775807</CopyToMask>
         </Config>
       </ConfigOptions>
@@ -33,6 +37,9 @@
       <store>0</store>
       <ConfigOptions>
         <Config name="Default">
+          <CopyToMask>9223372036854775807</CopyToMask>
+        </Config>
+        <Config name="NoDiscordIntegration">
           <CopyToMask>9223372036854775807</CopyToMask>
         </Config>
       </ConfigOptions>
@@ -80,7 +87,6 @@
     <sprite>sprites\spr_tile</sprite>
     <sprite>sprites\spr_play</sprite>
     <sprite>sprites\spr_title</sprite>
-    <sprite>sprites\spr_end</sprite>
     <sprite>sprites\spr_explosion_1</sprite>
     <sprite>sprites\spr_bitman</sprite>
     <sprite>sprites\spr_foxears_nwn</sprite>
@@ -124,7 +130,6 @@
     <object>objects\obj_rightwall</object>
     <object>objects\obj_leftwall</object>
     <object>objects\obj_title</object>
-    <object>objects\obj_end</object>
     <object>objects\obj_highscores</object>
     <object>objects\obj_musicplayer</object>
     <object>objects\obj_100levelmode</object>

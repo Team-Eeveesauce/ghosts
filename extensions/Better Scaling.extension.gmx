@@ -27,6 +27,9 @@
     <Config name="Default">
       <CopyToMask>105553859707082</CopyToMask>
     </Config>
+    <Config name="NoDiscordIntegration">
+      <CopyToMask>9223372036854775807</CopyToMask>
+    </Config>
   </ConfigOptions>
   <androidPermissions/>
   <IncludedResources>
