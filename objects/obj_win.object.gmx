@@ -67,7 +67,7 @@
         <arguments>
           <argument>
             <kind>2</kind>
-            <string>Congratulations, you win! If you have Discord running, check your status to see your score!</string>
+            <string>Congratulations, you win! Check out your score on the main menu to see how well you did!</string>
           </argument>
         </arguments>
       </action>
@@ -223,7 +223,7 @@
         <arguments>
           <argument>
             <kind>2</kind>
-            <string>Congratulations, you won! Maybe if you play again you can get a better score.</string>
+            <string>Congratulations, you won! Maybe if you play again, you can get a better score.</string>
           </argument>
         </arguments>
       </action>
@@ -503,10 +503,34 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>highscore_add("Player", score);
-discord_update_presence("Score: at least 1, probably","In the menu","icon","");
+            <string>highscore_add("Player", global.points);
+discord_update_presence("Score: " + string(global.points),"In the menu","icon","");
 
 </string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>global.remaining</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>1</string>
           </argument>
         </arguments>
       </action>

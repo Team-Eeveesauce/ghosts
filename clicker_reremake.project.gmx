@@ -95,7 +95,6 @@
       <script>scripts\discord_free_app.gml</script>
       <script>scripts\discord_free_dll.gml</script>
     </scripts>
-    <script>scripts\init.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_ghosts</font>
