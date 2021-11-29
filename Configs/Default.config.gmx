@@ -429,17 +429,17 @@
     <option_ps4_scale>0</option_ps4_scale>
     <option_ps4_texture_page>2048</option_ps4_texture_page>
     <option_psvita_build_version>0</option_psvita_build_version>
-    <option_psvita_fronttouch>0</option_psvita_fronttouch>
-    <option_psvita_interpolate>-1</option_psvita_interpolate>
-    <option_psvita_major_version>1</option_psvita_major_version>
-    <option_psvita_minor_version>0</option_psvita_minor_version>
+    <option_psvita_fronttouch>-1</option_psvita_fronttouch>
+    <option_psvita_interpolate>0</option_psvita_interpolate>
+    <option_psvita_major_version>3</option_psvita_major_version>
+    <option_psvita_minor_version>4</option_psvita_minor_version>
     <option_psvita_nptitleid></option_psvita_nptitleid>
     <option_psvita_nptitlepassphrase>Memo1</option_psvita_nptitlepassphrase>
     <option_psvita_nptitlesecret>Memo1</option_psvita_nptitlesecret>
     <option_psvita_package_id></option_psvita_package_id>
     <option_psvita_passcode></option_psvita_passcode>
     <option_psvita_reartouch>0</option_psvita_reartouch>
-    <option_psvita_revision_version>0</option_psvita_revision_version>
+    <option_psvita_revision_version>2</option_psvita_revision_version>
     <option_psvita_scale>0</option_psvita_scale>
     <option_psvita_texture_page>2048</option_psvita_texture_page>
     <option_quitkey>true</option_quitkey>
@@ -500,7 +500,7 @@
     <option_use_new_audio>True</option_use_new_audio>
     <option_variableerrors>False</option_variableerrors>
     <option_version>100</option_version>
-    <option_version_build>1</option_version_build>
+    <option_version_build>3</option_version_build>
     <option_version_company>Team Eeveesauce</option_version_company>
     <option_version_copyright></option_version_copyright>
     <option_version_description>Click the ghosts to set them free</option_version_description>
@@ -580,7 +580,7 @@
     <option_winUAP_wide_logo>Configs\Default\WindowsUAP\logos\WideLogo.scale-100.png</option_winUAP_wide_logo>
     <option_windowcolor>clBlack</option_windowcolor>
     <option_windows_alternate_sync_method>True</option_windows_alternate_sync_method>
-    <option_windows_build_version>0</option_windows_build_version>
+    <option_windows_build_version>2</option_windows_build_version>
     <option_windows_company_info>Team Eeveesauce</option_windows_company_info>
     <option_windows_copyright_info></option_windows_copyright_info>
     <option_windows_create_textures_on_demand>False</option_windows_create_textures_on_demand>
