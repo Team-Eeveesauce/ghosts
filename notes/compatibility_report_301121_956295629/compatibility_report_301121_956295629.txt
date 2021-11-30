@@ -1,0 +1,42 @@
+Font fnt_ghosts has been converted to font family Ghosts (Medium)
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\fnt_ghosts\fnt_ghosts.gms1.png
+macOS icon ${options_dir}\mac\icons\icon512.png written out as 32-bit
+Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2
+Missing audiogroup for sound: 'mus_level0' - setting to default audio group
+Missing audiogroup for sound: 'mus_credits' - setting to default audio group
+Missing audiogroup for sound: 'mus_level2' - setting to default audio group
+Missing audiogroup for sound: 'mus_level3' - setting to default audio group
+Missing audiogroup for sound: 'mus_level4' - setting to default audio group
+Missing audiogroup for sound: 'mus_level5' - setting to default audio group
+Missing audiogroup for sound: 'mus_levelboss' - setting to default audio group
+Missing audiogroup for sound: 'mus_level999' - setting to default audio group
+Missing audiogroup for sound: 'snd_badexplosion' - setting to default audio group
+Missing audiogroup for sound: 'snd_amogus' - setting to default audio group
+Game speed set to 30
+Added compatibility script 'action/action_another_room.gml'
+Added compatibility script 'action/action_bounce.gml'
+Added compatibility script 'action/action_change_object.gml'
+Added compatibility script 'action/action_create_object.gml'
+Added compatibility script 'action/action_draw_text.gml'
+Added compatibility script 'action/action_end_sound.gml'
+Added compatibility script 'action/action_highscore_clear.gml'
+Added compatibility script 'action/action_if.gml'
+Added compatibility script 'action/action_if_health.gml'
+Added compatibility script 'action/action_if_previous_room.gml'
+Added compatibility script 'action/action_if_variable.gml'
+Added compatibility script 'action/action_kill_object.gml'
+Added compatibility script 'action/action_message.gml'
+Added compatibility script 'action/action_move_point.gml'
+Added compatibility script 'action/action_move_random.gml'
+Added compatibility script 'action/action_next_room.gml'
+Added compatibility script 'action/action_save_game.gml'
+Added compatibility script 'action/action_set_motion.gml'
+Added compatibility script 'action/action_set_relative.gml'
+Added compatibility script 'action/action_sound.gml'
+Added compatibility script 'action/action_sprite_set.gml'
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script 'texture/texture_set_interpolation.gml'
+Added compatibility script 'action/__init_action.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script '__global_object_depths.gml'

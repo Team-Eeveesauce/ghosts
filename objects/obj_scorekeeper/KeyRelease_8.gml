@@ -1,0 +1,1 @@
+global.remaining = 0;
