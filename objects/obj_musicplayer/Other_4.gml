@@ -5,7 +5,6 @@ if __b__
 {
 action_end_sound(mus_level999);
 action_sound(mus_level0, 1);
-discord_update_presence("Busting some ghosts","Level 1","icon","ghost_wilbur");
 
 }
 }
@@ -15,7 +14,6 @@ if __b__
 {
 action_end_sound(mus_level0);
 action_sound(mus_level2, 1);
-discord_update_presence("Deleting some ghosts","Level 2","icon","ghost_gamer");
 
 }
 }
@@ -25,7 +23,6 @@ if __b__
 {
 action_end_sound(mus_level2);
 action_sound(mus_level3, 1);
-discord_update_presence("Removing some ghosts","Level 3","icon","ghost_blonny");
 
 }
 }
@@ -35,7 +32,6 @@ if __b__
 {
 action_end_sound(mus_level3);
 action_sound(mus_level4, 1);
-discord_update_presence("Annihilating some ghosts","Level 4","icon","ghost_happy");
 
 }
 }
@@ -45,7 +41,6 @@ if __b__
 {
 action_end_sound(mus_level4);
 action_sound(mus_level5, 1);
-discord_update_presence("Impostor ghosts","Level 5","icon","ghost_amogus");
 
 }
 }
@@ -55,7 +50,6 @@ if __b__
 {
 action_end_sound(mus_level5);
 action_sound(mus_levelboss, 1);
-discord_update_presence("Freeing some ghosts","Boss level","icon","ghost_boss");
 
 }
 }

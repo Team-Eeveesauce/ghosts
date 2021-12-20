@@ -48,7 +48,6 @@ action_set_relative(0);
 }
 }
 highscore_add("Player", global.points);
-discord_update_presence("Score: " + string(global.points),"In the menu","icon","");
 
 
 global.remaining = 1;
