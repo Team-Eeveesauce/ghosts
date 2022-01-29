@@ -85,6 +85,9 @@
       <sprite>sprites\spr_ghost_amogus</sprite>
       <sprite>sprites\spr_boss</sprite>
     </sprites>
+    <sprites name="civilians">
+      <sprite>sprites\spr_civilian1</sprite>
+    </sprites>
     <sprites name="gore">
       <sprite>sprites\spr_ghost1_gore</sprite>
       <sprite>sprites\spr_ghost2_gore</sprite>
@@ -93,6 +96,8 @@
       <sprite>sprites\spr_ghost_amogus_gore</sprite>
       <sprite>sprites\spr_boss_gore</sprite>
     </sprites>
+    <sprite>sprites\spr_tutorial1</sprite>
+    <sprite>sprites\spr_tutorial2</sprite>
     <sprite>sprites\spr_cursor</sprite>
     <sprite>sprites\spr_tile</sprite>
     <sprite>sprites\spr_play</sprite>
@@ -127,7 +132,7 @@
       <object>objects\obj_ghost_4</object>
       <object>objects\obj_ghost_amogus</object>
       <object>objects\obj_ghost_boss</object>
-      <object>objects\obj_ghost_protest</object>
+      <object>objects\obj_civilian1</object>
     </objects>
     <objects name="gore">
       <object>objects\obj_ghost1_gore</object>
@@ -136,6 +141,13 @@
       <object>objects\obj_ghost4_gore</object>
       <object>objects\obj_ghost_amogus_gore</object>
       <object>objects\obj_boss_gore</object>
+    </objects>
+    <objects name="other">
+      <object>objects\obj_ghost_protest</object>
+      <object>objects\obj_foxears</object>
+      <object>objects\obj_bitman</object>
+      <object>objects\obj_tutorial1</object>
+      <object>objects\obj_tutorial2</object>
     </objects>
     <object>objects\obj_innitbruv</object>
     <object>objects\obj_scorekeeper</object>
@@ -148,8 +160,6 @@
     <object>objects\obj_100levelmode</object>
     <object>objects\obj_explosion_1</object>
     <object>objects\obj_explosion_amogus</object>
-    <object>objects\obj_bitman</object>
-    <object>objects\obj_foxears</object>
     <object>objects\obj_win</object>
   </objects>
   <rooms name="rooms">
