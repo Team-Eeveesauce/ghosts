@@ -138,6 +138,8 @@
     <instance objName="obj_ghost_3" x="400" y="96" name="inst_1BC87446" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ghost_3" x="400" y="400" name="inst_2CDF3C00" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ghost_3" x="240" y="400" name="inst_49263CDC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_civilian1" x="80" y="240" name="inst_4CA935EC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_civilian1" x="544" y="240" name="inst_1EC3DADA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
