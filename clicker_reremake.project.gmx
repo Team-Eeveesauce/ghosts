@@ -62,6 +62,7 @@
     <extension index="2">extensions\Realistic Explosions Pack</extension>
   </NewExtensions>
   <sounds name="sound">
+    <sound>sound\mus_nft</sound>
     <sound>sound\mus_level0</sound>
     <sound>sound\mus_credits</sound>
     <sound>sound\mus_level2</sound>
@@ -84,8 +85,6 @@
       <sprite>sprites\spr_ghost4</sprite>
       <sprite>sprites\spr_ghost_amogus</sprite>
       <sprite>sprites\spr_boss</sprite>
-    </sprites>
-    <sprites name="civilians">
       <sprite>sprites\spr_civilian1</sprite>
     </sprites>
     <sprites name="gore">
@@ -96,16 +95,20 @@
       <sprite>sprites\spr_ghost_amogus_gore</sprite>
       <sprite>sprites\spr_boss_gore</sprite>
     </sprites>
-    <sprite>sprites\spr_tutorial1</sprite>
-    <sprite>sprites\spr_tutorial2</sprite>
+    <sprites name="other">
+      <sprite>sprites\spr_tutorial1</sprite>
+      <sprite>sprites\spr_tutorial2</sprite>
+      <sprite>sprites\spr_foxears_nwn</sprite>
+      <sprite>sprites\spr_foxears_bruh</sprite>
+      <sprite>sprites\spr_bitman</sprite>
+      <sprite>sprites\spr_advertwindow</sprite>
+      <sprite>sprites\spr_advert</sprite>
+    </sprites>
     <sprite>sprites\spr_cursor</sprite>
     <sprite>sprites\spr_tile</sprite>
     <sprite>sprites\spr_play</sprite>
     <sprite>sprites\spr_title</sprite>
     <sprite>sprites\spr_explosion_1</sprite>
-    <sprite>sprites\spr_bitman</sprite>
-    <sprite>sprites\spr_foxears_nwn</sprite>
-    <sprite>sprites\spr_foxears_bruh</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -127,6 +130,7 @@
       <object>objects\obj_tutorial_ghost</object>
       <object>objects\obj_ghost_1</object>
       <object>objects\obj_ghost_1_scared</object>
+      <object>objects\obj_ghost_protest</object>
       <object>objects\obj_ghost_2</object>
       <object>objects\obj_ghost_3</object>
       <object>objects\obj_ghost_4</object>
@@ -143,13 +147,14 @@
       <object>objects\obj_boss_gore</object>
     </objects>
     <objects name="other">
-      <object>objects\obj_ghost_protest</object>
-      <object>objects\obj_foxears</object>
-      <object>objects\obj_bitman</object>
       <object>objects\obj_tutorial1</object>
       <object>objects\obj_tutorial2</object>
+      <object>objects\obj_foxears</object>
+      <object>objects\obj_bitman</object>
+      <object>objects\obj_advertwindow</object>
+      <object>objects\obj_advert</object>
     </objects>
-    <object>objects\obj_innitbruv</object>
+    <object>objects\obj_play</object>
     <object>objects\obj_scorekeeper</object>
     <object>objects\obj_tile</object>
     <object>objects\obj_rightwall</object>
@@ -164,6 +169,7 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\levelbeforemenu</room>
+    <room>rooms\levelnft</room>
     <room>rooms\levelmenu</room>
     <room>rooms\leveltutorial</room>
     <room>rooms\level1</room>
