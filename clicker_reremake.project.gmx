@@ -76,16 +76,19 @@
   </sounds>
   <sprites name="sprites">
     <sprites name="ghosts">
-      <sprite>sprites\spr_ghost</sprite>
-      <sprite>sprites\spr_ghost1_worried</sprite>
-      <sprite>sprites\spr_ghost1_scared</sprite>
+      <sprite>sprites\spr_ghost_1</sprite>
+      <sprite>sprites\spr_ghost_1_worried</sprite>
+      <sprite>sprites\spr_ghost_1_scared</sprite>
       <sprite>sprites\spr_ghost_protest</sprite>
-      <sprite>sprites\spr_ghost2</sprite>
-      <sprite>sprites\spr_ghost3</sprite>
-      <sprite>sprites\spr_ghost4</sprite>
+      <sprite>sprites\spr_ghost_2</sprite>
+      <sprite>sprites\spr_ghost_3</sprite>
+      <sprite>sprites\spr_ghost_4</sprite>
+      <sprite>sprites\spr_ghost_5</sprite>
+      <sprite>sprites\spr_ghost_decoy</sprite>
       <sprite>sprites\spr_ghost_amogus</sprite>
-      <sprite>sprites\spr_boss</sprite>
-      <sprite>sprites\spr_civilian1</sprite>
+      <sprite>sprites\spr_ghost_boss</sprite>
+      <sprite>sprites\spr_civilian_1</sprite>
+      <sprite>sprites\spr_civilian_2</sprite>
     </sprites>
     <sprites name="gore">
       <sprite>sprites\spr_ghost1_gore</sprite>
@@ -134,8 +137,11 @@
       <object>objects\obj_ghost_2</object>
       <object>objects\obj_ghost_3</object>
       <object>objects\obj_ghost_4</object>
+      <object>objects\obj_ghost_5</object>
+      <object>objects\obj_ghost_decoy</object>
       <object>objects\obj_ghost_boss</object>
-      <object>objects\obj_civilian1</object>
+      <object>objects\obj_civilian_1</object>
+      <object>objects\obj_civilian_2</object>
     </objects>
     <objects name="gore">
       <object>objects\obj_ghost1_gore</object>
@@ -178,6 +184,7 @@
     <room>rooms\level5</room>
     <room>rooms\levelboss</room>
     <room>rooms\levelwin</room>
+    <room>rooms\level10</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

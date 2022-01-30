@@ -20,7 +20,6 @@
   <width>39</width>
   <height>55</height>
   <frames>
-    <frame index="0">images\spr_ghost1_scared_0.png</frame>
-    <frame index="1">images\spr_ghost1_scared_1.png</frame>
+    <frame index="0">images\spr_ghost_decoy_0.png</frame>
   </frames>
 </sprite>

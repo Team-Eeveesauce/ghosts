@@ -7,10 +7,10 @@
   <coltolerance>0</coltolerance>
   <sepmasks>0</sepmasks>
   <bboxmode>0</bboxmode>
-  <bbox_left>1</bbox_left>
-  <bbox_right>37</bbox_right>
+  <bbox_left>0</bbox_left>
+  <bbox_right>38</bbox_right>
   <bbox_top>1</bbox_top>
-  <bbox_bottom>54</bbox_bottom>
+  <bbox_bottom>51</bbox_bottom>
   <HTile>0</HTile>
   <VTile>0</VTile>
   <TextureGroups>
@@ -20,7 +20,7 @@
   <width>39</width>
   <height>55</height>
   <frames>
-    <frame index="0">images\spr_civilian1_0.png</frame>
-    <frame index="1">images\spr_civilian1_1.png</frame>
+    <frame index="0">images\spr_ghost_4_0.png</frame>
+    <frame index="1">images\spr_ghost_4_1.png</frame>
   </frames>
 </sprite>

@@ -87,7 +87,7 @@
         <arguments>
           <argument>
             <kind>5</kind>
-            <sprite>spr_ghost1_worried</sprite>
+            <sprite>spr_ghost_1_worried</sprite>
           </argument>
           <argument>
             <kind>0</kind>
