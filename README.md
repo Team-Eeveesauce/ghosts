@@ -26,9 +26,19 @@ A. I needed to pass Software Development so I made a minigame where you click gh
 A. "Being bored is a justification for anything" ~ Someone on Discord.
 
 
-##### Q. When will the Switch port come out?
+##### Q. So is it finished yet?
 
-A. I dunno. I think it's already good to go, but I don't know how to export it.
+A. Yes. There is nothing else to do, so I will not do anything else.
+
+
+##### Q. Why is this game so boring?
+
+A. well, you could've at least been a bit subtle about it...
+
+
+##### Q. imagine
+
+A. no
 
 
 ##### Q. I have a question!
