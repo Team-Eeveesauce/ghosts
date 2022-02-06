@@ -62,15 +62,23 @@
     <extension index="2">extensions\Realistic Explosions Pack</extension>
   </NewExtensions>
   <sounds name="sound">
-    <sound>sound\mus_nft</sound>
-    <sound>sound\mus_level0</sound>
+    <sounds name="music">
+      <sound>sound\mus_level0</sound>
+      <sound>sound\mus_level1</sound>
+      <sound>sound\mus_level2</sound>
+      <sound>sound\mus_level3</sound>
+      <sound>sound\mus_level4</sound>
+      <sound>sound\mus_level5</sound>
+      <sound>sound\mus_level6</sound>
+      <sound>sound\mus_level7</sound>
+      <sound>sound\mus_level8</sound>
+      <sound>sound\mus_level9</sound>
+      <sound>sound\mus_level10</sound>
+      <sound>sound\mus_level11</sound>
+      <sound>sound\mus_level12</sound>
+      <sound>sound\mus_nft</sound>
+    </sounds>
     <sound>sound\mus_credits</sound>
-    <sound>sound\mus_level2</sound>
-    <sound>sound\mus_level3</sound>
-    <sound>sound\mus_level4</sound>
-    <sound>sound\mus_level5</sound>
-    <sound>sound\mus_levelboss</sound>
-    <sound>sound\mus_level999</sound>
     <sound>sound\snd_badexplosion</sound>
     <sound>sound\snd_amogus</sound>
   </sounds>
@@ -107,10 +115,17 @@
       <sprite>sprites\spr_advertwindow</sprite>
       <sprite>sprites\spr_advert</sprite>
     </sprites>
+    <sprites name="credits">
+      <sprite>sprites\spr_title</sprite>
+      <sprite>sprites\spr_titleclear</sprite>
+      <sprite>sprites\spr_teameeveesauce</sprite>
+      <sprite>sprites\spr_englishguy4</sprite>
+      <sprite>sprites\spr_spritesandprogramming</sprite>
+      <sprite>sprites\spr_theend</sprite>
+    </sprites>
     <sprite>sprites\spr_cursor</sprite>
     <sprite>sprites\spr_tile</sprite>
     <sprite>sprites\spr_play</sprite>
-    <sprite>sprites\spr_title</sprite>
     <sprite>sprites\spr_explosion_1</sprite>
   </sprites>
   <backgrounds name="background"/>
@@ -124,16 +139,16 @@
       <script>scripts\discord_free_dll.gml</script>
     </scripts>
   </scripts>
-  <fonts name="fonts">
-    <font>fonts\fnt_ghosts</font>
-  </fonts>
+  <fonts name="fonts"/>
   <objects name="objects">
     <objects name="ghosts">
       <object>objects\obj_menu_ghost</object>
       <object>objects\obj_tutorial_ghost</object>
       <object>objects\obj_ghost_1</object>
       <object>objects\obj_ghost_1_scared</object>
-      <object>objects\obj_ghost_protest</object>
+      <object>objects\obj_ghost_shittingitsfuckingpants</object>
+      <object>objects\obj_ghost_protest_menu</object>
+      <object>objects\obj_ghost_ptotest</object>
       <object>objects\obj_ghost_2</object>
       <object>objects\obj_ghost_3</object>
       <object>objects\obj_ghost_4</object>
@@ -159,36 +174,56 @@
       <object>objects\obj_advertwindow</object>
       <object>objects\obj_advert</object>
     </objects>
+    <objects name="credits">
+      <object>objects\obj_title</object>
+      <object>objects\obj_titleclear</object>
+      <object>objects\obj_teameeveesauce</object>
+      <object>objects\obj_englishguy4</object>
+      <object>objects\obj_spritesandprogramming</object>
+      <object>objects\obj_theend</object>
+    </objects>
     <object>objects\obj_play</object>
     <object>objects\obj_scorekeeper</object>
     <object>objects\obj_tile</object>
     <object>objects\obj_rightwall</object>
     <object>objects\obj_leftwall</object>
-    <object>objects\obj_title</object>
     <object>objects\obj_highscores</object>
-    <object>objects\obj_musicplayer</object>
-    <object>objects\obj_100levelmode</object>
     <object>objects\obj_explosion_1</object>
     <object>objects\obj_explosion_amogus</object>
-    <object>objects\obj_win</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\levelbeforemenu</room>
     <room>rooms\levelnft</room>
     <room>rooms\levelmenu</room>
-    <room>rooms\leveltutorial</room>
-    <room>rooms\level1</room>
-    <room>rooms\level2</room>
-    <room>rooms\level3</room>
-    <room>rooms\level4</room>
-    <room>rooms\level5</room>
-    <room>rooms\levelboss</room>
-    <room>rooms\levelwin</room>
-    <room>rooms\level10</room>
+    <rooms name="levels">
+      <room>rooms\level1</room>
+      <room>rooms\level2</room>
+      <room>rooms\level3</room>
+      <room>rooms\level4</room>
+      <room>rooms\level5</room>
+      <room>rooms\level6</room>
+      <room>rooms\level7</room>
+      <room>rooms\level8</room>
+      <room>rooms\level9</room>
+      <room>rooms\level10</room>
+      <room>rooms\level11</room>
+      <room>rooms\level12</room>
+    </rooms>
+    <rooms name="credits">
+      <room>rooms\levelwin</room>
+      <room>rooms\levelcredits1</room>
+      <room>rooms\levelcredits2</room>
+      <room>rooms\levelcredits3</room>
+      <room>rooms\levelcreditsend</room>
+    </rooms>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
+  <audiogroups name="audiogroups">
+    <audiogroup name="audiogroup_default"/>
+    <audiogroup name="music"/>
+  </audiogroups>
   <TutorialState>
     <IsTutorial>0</IsTutorial>
     <TutorialName></TutorialName>
