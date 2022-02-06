@@ -213,7 +213,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.selfaware</string>
+            <string>global.completed</string>
           </argument>
           <argument>
             <kind>0</kind>

@@ -57,8 +57,6 @@
     </datafile>
   </datafiles>
   <NewExtensions>
-    <extension index="0">extensions\Bloom shader</extension>
-    <extension index="1">extensions\Better Scaling</extension>
     <extension index="2">extensions\Realistic Explosions Pack</extension>
   </NewExtensions>
   <sounds name="sound">
@@ -139,7 +137,6 @@
       <script>scripts\discord_free_dll.gml</script>
     </scripts>
   </scripts>
-  <fonts name="fonts"/>
   <objects name="objects">
     <objects name="ghosts">
       <object>objects\obj_menu_ghost</object>

@@ -3,7 +3,7 @@
   <spriteName>spr_ghost_1_worried</spriteName>
   <solid>-1</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>99</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -237,15 +237,15 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>global.selfaware</string>
+            <string>global.completed</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>0</string>
+            <string>1</string>
           </argument>
           <argument>
             <kind>4</kind>
-            <string>2</string>
+            <string>0</string>
           </argument>
         </arguments>
       </action>

@@ -60,10 +60,6 @@ draw_set_font(ft_example);
 
 if (keyboard_check_pressed(ord("R"))) scale = 1;
 
-if (keyboard_check_pressed(vk_space)) mode = !mode;
-
-if (keyboard_check_pressed(vk_escape)) game_end();
-
 x += (keyboard_check(ord("A")) - keyboard_check(ord("D"))) * 4;
 y += (keyboard_check(ord("W")) - keyboard_check(ord("S"))) * 4;
 </string>
@@ -97,8 +93,6 @@ y += (keyboard_check(ord("W")) - keyboard_check(ord("S"))) * 4;
         draw_sprite_ext(spr_example, 0, x + room_width * 0.5 - sprite_get_width(spr_example) * 0.5 * scale, y + room_height * 0.5 - sprite_get_height(spr_example) * 0.5 * scale, scale, scale, 0, c_white, 1);
         break;
 }
-
-draw_text(10, 10, "FPS: " + string(fps) + "#WASD to move#Scale (left/right to change, &lt;R&gt; to reset): " + string(scale) + "#Mode (space to toggle): " + mode_name[mode]);
 </string>
           </argument>
         </arguments>
