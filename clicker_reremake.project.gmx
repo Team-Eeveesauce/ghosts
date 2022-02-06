@@ -57,7 +57,7 @@
     </datafile>
   </datafiles>
   <NewExtensions>
-    <extension index="2">extensions\Realistic Explosions Pack</extension>
+    <extension index="0">extensions\Realistic Explosions Pack</extension>
   </NewExtensions>
   <sounds name="sound">
     <sounds name="music">
