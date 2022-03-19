@@ -58,6 +58,7 @@
   </datafiles>
   <NewExtensions>
     <extension index="0">extensions\Realistic Explosions Pack</extension>
+    <extension index="1">extensions\minigames</extension>
   </NewExtensions>
   <sounds name="sound">
     <sounds name="music">
@@ -121,6 +122,23 @@
       <sprite>sprites\spr_spritesandprogramming</sprite>
       <sprite>sprites\spr_theend</sprite>
     </sprites>
+    <sprites name="minigames">
+      <sprites name="desktop">
+        <sprite>sprites\spr_cloud1</sprite>
+        <sprite>sprites\spr_cloud2</sprite>
+        <sprite>sprites\spr_gradient</sprite>
+        <sprite>sprites\spr_hill</sprite>
+        <sprite>sprites\spr_layer</sprite>
+      </sprites>
+      <sprites name="bitman">
+        <sprite>sprites\spr_scammer</sprite>
+        <sprite>sprites\spr_grass</sprite>
+        <sprite>sprites\spr_bitman_anim</sprite>
+      </sprites>
+      <sprites name="vvvvvv">
+        <sprite>sprites\spr_vvvvvvman</sprite>
+      </sprites>
+    </sprites>
     <sprite>sprites\spr_cursor</sprite>
     <sprite>sprites\spr_tile</sprite>
     <sprite>sprites\spr_play</sprite>
@@ -179,6 +197,24 @@
       <object>objects\obj_spritesandprogramming</object>
       <object>objects\obj_theend</object>
     </objects>
+    <objects name="minigames">
+      <objects name="bitman">
+        <object>objects\obj_scammer</object>
+        <object>objects\obj_grass</object>
+        <object>objects\obj_bitman_m</object>
+      </objects>
+      <objects name="vvvvvv">
+        <object>objects\obj_vvvvvvman</object>
+        <object>objects\obj_vvvvvvman_flipped</object>
+      </objects>
+      <objects name="desktop">
+        <object>objects\obj_cloud1</object>
+        <object>objects\obj_cloud2</object>
+        <object>objects\obj_gradient</object>
+        <object>objects\obj_hill</object>
+        <object>objects\obj_layer</object>
+      </objects>
+    </objects>
     <object>objects\obj_play</object>
     <object>objects\obj_scorekeeper</object>
     <object>objects\obj_tile</object>
@@ -190,6 +226,11 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\levelbeforemenu</room>
+    <rooms name="minigames">
+      <room>rooms\desktop</room>
+      <room>rooms\vvvvvv</room>
+      <room>rooms\bitman</room>
+    </rooms>
     <room>rooms\levelnft</room>
     <room>rooms\levelmenu</room>
     <rooms name="levels">
