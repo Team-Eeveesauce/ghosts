@@ -50,7 +50,14 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
-  <instances/>
+  <instances>
+    <instance objName="obj_layer" x="0" y="160" name="inst_35B62FD6" locked="0" code="" scaleX="16" scaleY="17.3714294433594" colour="4294967295" rotation="0"/>
+    <instance objName="obj_cloud1" x="0" y="0" name="inst_6D53ED6C" locked="0" code="" scaleX="16" scaleY="18.6666660308838" colour="4294967295" rotation="0"/>
+    <instance objName="obj_cloud2" x="0" y="0" name="inst_B7F3DFD0" locked="0" code="" scaleX="16.2539691925049" scaleY="18" colour="4294967295" rotation="0"/>
+    <instance objName="obj_hill" x="0" y="640" name="inst_369EEA93" locked="0" code="" scaleX="16.2539691925049" scaleY="12.8000001907349" colour="4294967295" rotation="0"/>
+    <instance objName="obj_gradient" x="-800" y="288" name="inst_8344BDFB" locked="0" code="" scaleX="22.7368412017822" scaleY="25.1428565979004" colour="4294967295" rotation="0"/>
+    <instance objName="obj_stopper" x="1056" y="512" name="inst_A5E0FF27" locked="0" code="" scaleX="0.5" scaleY="5.5" colour="4294967295" rotation="0"/>
+  </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>

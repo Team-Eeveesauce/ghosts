@@ -11,34 +11,6 @@
     <event eventtype="0" enumb="0">
       <action>
         <libid>1</libid>
-        <id>541</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_sprite_set</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>5</kind>
-            <sprite>-100</sprite>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>0</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>0</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
         <id>603</id>
         <kind>7</kind>
         <userelative>0</userelative>
@@ -54,14 +26,43 @@
           <argument>
             <kind>1</kind>
             <string>//Initialize variables
-grav = 0.6;
+grav = 1;
 hsp = 0;
 vsp = 0;
-jumpspeed = 8;
-movespeed = 7;
+jumpspeed = 12;
+movespeed = 12;
 ani_start = 0;
 ani_end = image_number - 1;
+
 </string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>541</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_sprite_set</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>5</kind>
+            <sprite>spr_vvvvvvman</sprite>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
           </argument>
         </arguments>
       </action>
@@ -117,6 +118,9 @@ image_index = 0
             <kind>1</kind>
             <string>// i have no idea how any of this works, i just stole it from a youtube video (https://www.youtube.com/watch?v=IysShLIaosk)
 
+image_xscale = 4;
+image_yscale = 4;
+
 //Get the player's input
 key_right = keyboard_check(vk_right);
 key_left = -keyboard_check(vk_left);
@@ -125,7 +129,7 @@ key_jump = keyboard_check_pressed(vk_up);
 //React to inputs
 move = key_left + key_right;
 hsp = move * movespeed;
-if (vsp &lt; 10) vsp += grav;
+if (vsp &lt; 20) vsp += grav;
 
 if (place_meeting(x,y+1,obj_grass))
 {
@@ -135,9 +139,9 @@ if (place_meeting(x,y+1,obj_grass))
 //walking animation, with help from a reddit post (https://www.reddit.com/r/gamemaker/comments/1v64ls)
 if key_left
 {
-image_speed=.3;
-ani_start=3;
-ani_end=4;
+image_speed=.4;
+ani_start=4;
+ani_end=5;
 };
 
 if key_right
