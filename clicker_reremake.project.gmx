@@ -227,14 +227,16 @@
     <object>objects\obj_highscores</object>
     <object>objects\obj_explosion_1</object>
     <object>objects\obj_explosion_amogus</object>
-    <object>objects\obj_button</object>
+    <object>objects\obj_button1</object>
+    <object>objects\obj_button2</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\levelbeforemenu</room>
     <rooms name="minigames">
-      <room>rooms\desktop</room>
+      <room>rooms\load_desktop</room>
       <room>rooms\bitman</room>
       <room>rooms\vvvvvv</room>
+      <room>rooms\what_where_am_i_im_lost_anc_confused_help_where_do_i_go</room>
     </rooms>
     <room>rooms\levelnft</room>
     <room>rooms\levelmenu</room>
