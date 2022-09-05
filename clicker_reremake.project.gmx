@@ -80,6 +80,7 @@
     <sound>sound\mus_credits</sound>
     <sound>sound\snd_badexplosion</sound>
     <sound>sound\snd_amogus</sound>
+    <sound>sound\mus_bigtony</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="ghosts">
@@ -113,6 +114,7 @@
       <sprite>sprites\spr_bitman</sprite>
       <sprite>sprites\spr_advertwindow</sprite>
       <sprite>sprites\spr_advert</sprite>
+      <sprite>sprites\spr_dont</sprite>
     </sprites>
     <sprites name="credits">
       <sprite>sprites\spr_title</sprite>
@@ -140,6 +142,14 @@
         <sprite>sprites\spr_vvvvvvman_flipped</sprite>
       </sprites>
     </sprites>
+    <sprites name="scores">
+      <sprite>sprites\spr_plus0</sprite>
+      <sprite>sprites\spr_plus10</sprite>
+      <sprite>sprites\spr_plus20</sprite>
+      <sprite>sprites\spr_plus30</sprite>
+      <sprite>sprites\spr_plus40</sprite>
+      <sprite>sprites\spr_plus50</sprite>
+    </sprites>
     <sprite>sprites\spr_cursor</sprite>
     <sprite>sprites\spr_tile</sprite>
     <sprite>sprites\spr_play</sprite>
@@ -165,7 +175,7 @@
       <object>objects\obj_ghost_1_scared</object>
       <object>objects\obj_ghost_shittingitsfuckingpants</object>
       <object>objects\obj_ghost_protest_menu</object>
-      <object>objects\obj_ghost_ptotest</object>
+      <object>objects\obj_ghost_protest</object>
       <object>objects\obj_ghost_2</object>
       <object>objects\obj_ghost_3</object>
       <object>objects\obj_ghost_4</object>
@@ -190,6 +200,7 @@
       <object>objects\obj_bitman</object>
       <object>objects\obj_advertwindow</object>
       <object>objects\obj_advert</object>
+      <object>objects\obj_dont</object>
     </objects>
     <objects name="credits">
       <object>objects\obj_title</object>
@@ -218,6 +229,14 @@
         <object>objects\obj_vvvvvvman2</object>
         <object>objects\obj_vvvvvvman_flipped</object>
       </objects>
+    </objects>
+    <objects name="scores">
+      <object>objects\obj_plus0</object>
+      <object>objects\obj_plus10</object>
+      <object>objects\obj_plus20</object>
+      <object>objects\obj_plus30</object>
+      <object>objects\obj_plus40</object>
+      <object>objects\obj_plus50</object>
     </objects>
     <object>objects\obj_play</object>
     <object>objects\obj_scorekeeper</object>

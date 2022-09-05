@@ -456,7 +456,7 @@
     <option_showprogress>1</option_showprogress>
     <option_sizeable>True</option_sizeable>
     <option_stayontop>false</option_stayontop>
-    <option_sync_vertex>1</option_sync_vertex>
+    <option_sync_vertex>0</option_sync_vertex>
     <option_textureGroup0_border>2</option_textureGroup0_border>
     <option_textureGroup0_nocropping>0</option_textureGroup0_nocropping>
     <option_textureGroup0_parent>&lt;none&gt;</option_textureGroup0_parent>
@@ -505,7 +505,7 @@
     <option_version_copyright></option_version_copyright>
     <option_version_description>Click a ghost to set it free</option_version_description>
     <option_version_major>4</option_version_major>
-    <option_version_minor>1</option_version_minor>
+    <option_version_minor>2</option_version_minor>
     <option_version_product>Click The Ghosts</option_version_product>
     <option_version_release>0</option_version_release>
     <option_win8_advertising_appid></option_win8_advertising_appid>
@@ -588,7 +588,7 @@
     <option_windows_enable_steam>0</option_windows_enable_steam>
     <option_windows_game_icon>Configs\Default\windows\runner_icon.ico</option_windows_game_icon>
     <option_windows_license>Configs\Default\windows\License.txt</option_windows_license>
-    <option_windows_mainor_version>1</option_windows_mainor_version>
+    <option_windows_mainor_version>2</option_windows_mainor_version>
     <option_windows_major_version>4</option_windows_major_version>
     <option_windows_nsis_file>Configs\Default\windows\RunnerInstaller.nsi</option_windows_nsis_file>
     <option_windows_product_info>Click The Ghosts</option_windows_product_info>
