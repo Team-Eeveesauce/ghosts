@@ -251,6 +251,7 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\levelbeforemenu</room>
+    <room>rooms\leveloptions</room>
     <rooms name="minigames">
       <room>rooms\load_desktop</room>
       <room>rooms\bitman</room>
