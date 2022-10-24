@@ -11,20 +11,20 @@
     <sound>sound\snd_badexplosion</sound>
   </sounds>
   <sprites name="sprites">
+    <sprites name="neco-arcs">
+      <sprite>sprites\spr_burunyuu1</sprite>
+      <sprite>sprites\spr_burunyuu2</sprite>
+      <sprite>sprites\spr_burunyuu3</sprite>
+      <sprite>sprites\spr_burunyuu4</sprite>
+      <sprite>sprites\spr_burunyuu5</sprite>
+      <sprite>sprites\spr_burunyuu_boss</sprite>
+      <sprite>sprites\spr_burunyuu_decoy</sprite>
+    </sprites>
     <sprites name="other">
       <sprite>sprites\spr_tutorial2</sprite>
       <sprite>sprites\spr_bitman</sprite>
       <sprite>sprites\spr_advertwindow</sprite>
       <sprite>sprites\spr_advert</sprite>
-      <sprite>sprites\spr_dont</sprite>
-    </sprites>
-    <sprites name="credits">
-      <sprite>sprites\spr_title</sprite>
-      <sprite>sprites\spr_titleclear</sprite>
-      <sprite>sprites\spr_teameeveesauce</sprite>
-      <sprite>sprites\spr_englishguy4</sprite>
-      <sprite>sprites\spr_spritesandprogramming</sprite>
-      <sprite>sprites\spr_theend</sprite>
     </sprites>
     <sprites name="scores">
       <sprite>sprites\spr_plus0</sprite>
@@ -38,37 +38,27 @@
     <sprite>sprites\spr_tile</sprite>
     <sprite>sprites\spr_play</sprite>
     <sprite>sprites\spr_explosion_1</sprite>
+    <sprite>sprites\spr_gore</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
-  <scripts name="scripts"/>
   <objects name="objects">
     <objects name="ghosts">
       <object>objects\obj_menu_ghost</object>
       <object>objects\obj_tutorial_ghost</object>
-      <object>objects\obj_ghost_1</object>
-      <object>objects\obj_ghost_2</object>
-      <object>objects\obj_ghost_3</object>
-      <object>objects\obj_ghost_4</object>
-      <object>objects\obj_ghost_5</object>
-      <object>objects\obj_ghost_decoy</object>
+      <object>objects\obj_burunyuu1</object>
+      <object>objects\obj_burunyuu2</object>
+      <object>objects\obj_burunyuu3</object>
+      <object>objects\obj_burunyuu4</object>
+      <object>objects\obj_burunyuu5</object>
+      <object>objects\obj_burunyuu_decoy</object>
       <object>objects\obj_ghost_boss</object>
-      <object>objects\obj_civilian_1</object>
-      <object>objects\obj_civilian_2</object>
     </objects>
     <objects name="other">
       <object>objects\obj_tutorial2</object>
       <object>objects\obj_bitman</object>
       <object>objects\obj_advertwindow</object>
       <object>objects\obj_advert</object>
-    </objects>
-    <objects name="credits">
-      <object>objects\obj_title</object>
-      <object>objects\obj_titleclear</object>
-      <object>objects\obj_teameeveesauce</object>
-      <object>objects\obj_englishguy4</object>
-      <object>objects\obj_spritesandprogramming</object>
-      <object>objects\obj_theend</object>
     </objects>
     <objects name="scores">
       <object>objects\obj_plus0</object>
@@ -94,23 +84,14 @@
     <rooms name="levels">
       <room>rooms\level1</room>
       <room>rooms\level2</room>
-      <room>rooms\level3</room>
       <room>rooms\level4</room>
       <room>rooms\level5</room>
       <room>rooms\level6</room>
       <room>rooms\level7</room>
       <room>rooms\level8</room>
       <room>rooms\level9</room>
-      <room>rooms\level10</room>
       <room>rooms\level11</room>
       <room>rooms\level12</room>
-    </rooms>
-    <rooms name="credits">
-      <room>rooms\levelwin</room>
-      <room>rooms\levelcredits1</room>
-      <room>rooms\levelcredits2</room>
-      <room>rooms\levelcredits3</room>
-      <room>rooms\levelcreditsend</room>
     </rooms>
   </rooms>
   <help>
