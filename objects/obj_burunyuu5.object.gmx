@@ -57,17 +57,18 @@
 
 if (point_distance(x, y, mouse_x, mouse_y) &lt; 75 ) {
     if global.miniontime = 0 {
-        global.miniontime = 1
-        audio_pause_all();
-        audio_play_sound(mus_bigtony,10,true);
-    }
+        global.miniontime = 1;
+        audio_sound_pitch(mus_gameplay,0.25);
+        instance_create(0,0,obj_dim);
+    };
 }
+
 else
 {
-    global.miniontime = 0
-    audio_resume_all();
-    audio_stop_sound(mus_bigtony);
-}
+    global.miniontime = 0;
+    audio_sound_pitch(mus_gameplay,1);
+    instance_destroy(obj_dim);
+};
 </string>
           </argument>
         </arguments>

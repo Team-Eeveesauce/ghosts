@@ -4,11 +4,12 @@
     <Config>Configs\Default</Config>
   </Configs>
   <datafiles number="8" name="datafiles"/>
-  <NewExtensions>
-    <extension index="0">extensions\Realistic Explosions Pack</extension>
-  </NewExtensions>
+  <NewExtensions/>
   <sounds name="sound">
     <sound>sound\snd_badexplosion</sound>
+    <sound>sound\snd_burunyuu</sound>
+    <sound>sound\mus_gameplay</sound>
+    <sound>sound\mus_nirvana</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="neco-arcs">
@@ -21,10 +22,7 @@
       <sprite>sprites\spr_burunyuu_decoy</sprite>
     </sprites>
     <sprites name="other">
-      <sprite>sprites\spr_tutorial2</sprite>
-      <sprite>sprites\spr_bitman</sprite>
       <sprite>sprites\spr_advertwindow</sprite>
-      <sprite>sprites\spr_advert</sprite>
     </sprites>
     <sprites name="scores">
       <sprite>sprites\spr_plus0</sprite>
@@ -37,14 +35,20 @@
     <sprite>sprites\spr_cursor</sprite>
     <sprite>sprites\spr_tile</sprite>
     <sprite>sprites\spr_play</sprite>
+    <sprite>sprites\spr_next</sprite>
     <sprite>sprites\spr_explosion_1</sprite>
     <sprite>sprites\spr_gore</sprite>
+    <sprite>sprites\spr_dim</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bkg_story1</background>
+    <background>background\bkg_story2</background>
+    <background>background\bkg_story3</background>
+    <background>background\bkg_story4</background>
+  </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
     <objects name="ghosts">
-      <object>objects\obj_menu_ghost</object>
       <object>objects\obj_tutorial_ghost</object>
       <object>objects\obj_burunyuu1</object>
       <object>objects\obj_burunyuu2</object>
@@ -54,12 +58,6 @@
       <object>objects\obj_burunyuu_decoy</object>
       <object>objects\obj_ghost_boss</object>
     </objects>
-    <objects name="other">
-      <object>objects\obj_tutorial2</object>
-      <object>objects\obj_bitman</object>
-      <object>objects\obj_advertwindow</object>
-      <object>objects\obj_advert</object>
-    </objects>
     <objects name="scores">
       <object>objects\obj_plus0</object>
       <object>objects\obj_plus10</object>
@@ -68,19 +66,26 @@
       <object>objects\obj_plus40</object>
       <object>objects\obj_plus50</object>
     </objects>
-    <object>objects\obj_play</object>
+    <objects name="other">
+      <object>objects\obj_play</object>
+      <object>objects\obj_next</object>
+      <object>objects\obj_advertwindow</object>
+      <object>objects\obj_tile</object>
+      <object>objects\obj_rightwall</object>
+      <object>objects\obj_leftwall</object>
+      <object>objects\obj_explosion_1</object>
+      <object>objects\obj_gore</object>
+    </objects>
     <object>objects\obj_scorekeeper</object>
-    <object>objects\obj_tile</object>
-    <object>objects\obj_rightwall</object>
-    <object>objects\obj_leftwall</object>
-    <object>objects\obj_highscores</object>
-    <object>objects\obj_explosion_1</object>
-    <object>objects\obj_gore</object>
+    <object>objects\obj_dim</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\levelbeforemenu</room>
-    <room>rooms\levelnft</room>
-    <room>rooms\levelmenu</room>
+    <rooms name="story">
+      <room>rooms\level_story1</room>
+      <room>rooms\level_story2</room>
+      <room>rooms\level_story3</room>
+      <room>rooms\level_story4</room>
+    </rooms>
     <rooms name="levels">
       <room>rooms\level1</room>
       <room>rooms\level2</room>
@@ -90,6 +95,7 @@
       <room>rooms\level7</room>
       <room>rooms\level8</room>
       <room>rooms\level9</room>
+      <room>rooms\level10</room>
       <room>rooms\level11</room>
       <room>rooms\level12</room>
     </rooms>

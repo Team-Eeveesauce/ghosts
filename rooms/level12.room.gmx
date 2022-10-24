@@ -117,16 +117,7 @@
     <instance objName="obj_rightwall" x="624" y="80" name="inst_E6F5B4C6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_rightwall" x="624" y="48" name="inst_4C133211" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_rightwall" x="624" y="16" name="inst_E1280674" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_ghost_boss" x="240" y="176" name="inst_640637FF" locked="0" code="" scaleX="5.75" scaleY="5.75" colour="4294967295" rotation="0"/>
-    <instance objName="obj_menu_ghost" x="64" y="112" name="inst_7AAFC671" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_menu_ghost" x="272" y="272" name="inst_C3100B70" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_menu_ghost" x="496" y="112" name="inst_9784E6B5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_menu_ghost" x="480" y="272" name="inst_241C9C86" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_menu_ghost" x="528" y="368" name="inst_D8545591" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_menu_ghost" x="96" y="384" name="inst_35498E62" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_menu_ghost" x="448" y="64" name="inst_5DF7DE51" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_menu_ghost" x="336" y="192" name="inst_6031A2B1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_menu_ghost" x="352" y="336" name="inst_980B471F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ghost_boss" x="320" y="224" name="inst_640637FF" locked="0" code="" scaleX="5.75" scaleY="5.75" colour="4294967295" rotation="0"/>
     <instance objName="obj_burunyuu2" x="112" y="80" name="inst_B42179B5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_burunyuu2" x="128" y="256" name="inst_B61230BB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_burunyuu2" x="80" y="320" name="inst_00F22487" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -136,15 +127,23 @@
     <instance objName="obj_burunyuu3" x="160" y="304" name="inst_72204592" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_burunyuu3" x="416" y="256" name="inst_4F81143E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_burunyuu3" x="464" y="160" name="inst_BBB91F93" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_burunyuu3" x="288" y="64" name="inst_E73407EC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_burunyuu3" x="288" y="80" name="inst_E73407EC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_burunyuu3" x="272" y="400" name="inst_D4D8EE8A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_burunyuu4" x="160" y="64" name="inst_27E43733" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_burunyuu4" x="160" y="96" name="inst_27E43733" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_burunyuu4" x="80" y="176" name="inst_BCE01743" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_burunyuu4" x="192" y="352" name="inst_3EE7FED5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_burunyuu4" x="336" y="400" name="inst_24BD64A3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_burunyuu4" x="464" y="336" name="inst_E884C27F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_burunyuu4" x="496" y="224" name="inst_CECAF7ED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_burunyuu4" x="368" y="160" name="inst_E9A661CB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_burunyuu1" x="96" y="368" name="inst_52781629" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_burunyuu1" x="144" y="176" name="inst_E0166881" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_burunyuu1" x="560" y="80" name="inst_3138CF05" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_burunyuu1" x="544" y="368" name="inst_10D0CF9D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_burunyuu1" x="448" y="80" name="inst_B337ED4B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_burunyuu1" x="272" y="288" name="inst_6D53EC3E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_burunyuu1" x="192" y="144" name="inst_746777CA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_burunyuu1" x="192" y="288" name="inst_331B9B80" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
