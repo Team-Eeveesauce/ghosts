@@ -143,7 +143,7 @@
         <arguments>
           <argument>
             <kind>11</kind>
-            <room>load_desktop</room>
+            <room>&lt;undefined&gt;</room>
           </argument>
         </arguments>
       </action>

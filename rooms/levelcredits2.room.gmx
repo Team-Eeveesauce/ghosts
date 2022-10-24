@@ -150,10 +150,7 @@
     <instance objName="obj_tile" x="80" y="464" name="inst_D6DF4C12" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_tile" x="48" y="464" name="inst_15CB3602" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_tile" x="16" y="448" name="inst_E2EAD117" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_ghost_shittingitsfuckingpants" x="128" y="336" name="inst_6849DED3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_teameeveesauce" x="320" y="368" name="inst_FB817283" locked="0" code="" scaleX="9.01754379272461" scaleY="8.45454502105713" colour="4294967295" rotation="0"/>
-    <instance objName="obj_ghost_1_scared" x="432" y="288" name="inst_7E350EF2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_ghost_protest" x="304" y="272" name="inst_CBEB31DB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

@@ -120,11 +120,9 @@
     <instance objName="obj_advertwindow" x="208" y="160" name="inst_48AC64D6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_advertwindow" x="496" y="336" name="inst_947BD811" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_advertwindow" x="160" y="336" name="inst_9288A810" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_ghost_amogus_gore" x="528" y="368" name="inst_73EFF968" locked="0" code="" scaleX="1.672727227211" scaleY="1.30769228935242" colour="4294967295" rotation="0"/>
     <instance objName="obj_tutorial_ghost" x="448" y="352" name="inst_26F0AD0D" locked="0" code="" scaleX="-1.56410253047943" scaleY="1.36000001430511" colour="4294967295" rotation="0"/>
     <instance objName="obj_bitman" x="208" y="176" name="inst_68D3C432" locked="0" code="" scaleX="4.5" scaleY="2.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_bitman" x="176" y="352" name="inst_BF387B54" locked="0" code="" scaleX="-4.5" scaleY="2.5" colour="4294967295" rotation="0"/>
-    <instance objName="obj_ghost_1_scared" x="112" y="368" name="inst_31EE8E42" locked="0" code="" scaleX="-1.60526311397552" scaleY="0.672727286815643" colour="4294967295" rotation="0"/>
     <instance objName="obj_ghost_4" x="448" y="160" name="inst_2D7A2D4E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ghost_4" x="320" y="272" name="inst_7B0A0801" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ghost_4" x="336" y="400" name="inst_DB458EAA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

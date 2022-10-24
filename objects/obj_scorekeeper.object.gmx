@@ -266,7 +266,7 @@ discord_update_presence("Score: " + string(global.points),"In the menu","icon","
         <arguments>
           <argument>
             <kind>5</kind>
-            <sprite>spr_ghost_1_worried</sprite>
+            <sprite>&lt;undefined&gt;</sprite>
           </argument>
           <argument>
             <kind>0</kind>
@@ -342,7 +342,7 @@ discord_update_presence("Score: " + string(global.points),"In the menu","icon","
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>mus_credits</sound>
+            <sound>&lt;undefined&gt;</sound>
           </argument>
         </arguments>
       </action>
@@ -536,7 +536,7 @@ audio_group_stop_all(music)
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>mus_nft</sound>
+            <sound>&lt;undefined&gt;</sound>
           </argument>
           <argument>
             <kind>3</kind>
@@ -637,7 +637,7 @@ audio_group_stop_all(music)
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>mus_level0</sound>
+            <sound>&lt;undefined&gt;</sound>
           </argument>
           <argument>
             <kind>3</kind>
@@ -738,7 +738,7 @@ audio_group_stop_all(music)
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>mus_level1</sound>
+            <sound>&lt;undefined&gt;</sound>
           </argument>
           <argument>
             <kind>3</kind>
@@ -839,7 +839,7 @@ audio_group_stop_all(music)
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>mus_level2</sound>
+            <sound>&lt;undefined&gt;</sound>
           </argument>
           <argument>
             <kind>3</kind>
@@ -940,7 +940,7 @@ audio_group_stop_all(music)
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>mus_level3</sound>
+            <sound>&lt;undefined&gt;</sound>
           </argument>
           <argument>
             <kind>3</kind>
@@ -1041,7 +1041,7 @@ audio_group_stop_all(music)
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>mus_level4</sound>
+            <sound>&lt;undefined&gt;</sound>
           </argument>
           <argument>
             <kind>3</kind>
@@ -1142,7 +1142,7 @@ audio_group_stop_all(music)
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>mus_level5</sound>
+            <sound>&lt;undefined&gt;</sound>
           </argument>
           <argument>
             <kind>3</kind>
@@ -1243,7 +1243,7 @@ audio_group_stop_all(music)
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>mus_level6</sound>
+            <sound>&lt;undefined&gt;</sound>
           </argument>
           <argument>
             <kind>3</kind>
@@ -1344,7 +1344,7 @@ audio_group_stop_all(music)
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>mus_level7</sound>
+            <sound>&lt;undefined&gt;</sound>
           </argument>
           <argument>
             <kind>3</kind>
@@ -1445,7 +1445,7 @@ audio_group_stop_all(music)
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>mus_level8</sound>
+            <sound>&lt;undefined&gt;</sound>
           </argument>
           <argument>
             <kind>3</kind>
@@ -1546,7 +1546,7 @@ audio_group_stop_all(music)
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>mus_level9</sound>
+            <sound>&lt;undefined&gt;</sound>
           </argument>
           <argument>
             <kind>3</kind>
@@ -1647,7 +1647,7 @@ audio_group_stop_all(music)
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>mus_level10</sound>
+            <sound>&lt;undefined&gt;</sound>
           </argument>
           <argument>
             <kind>3</kind>
@@ -1748,7 +1748,7 @@ audio_group_stop_all(music)
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>mus_level11</sound>
+            <sound>&lt;undefined&gt;</sound>
           </argument>
           <argument>
             <kind>3</kind>
@@ -1849,7 +1849,7 @@ audio_group_stop_all(music)
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>mus_level12</sound>
+            <sound>&lt;undefined&gt;</sound>
           </argument>
           <argument>
             <kind>3</kind>
@@ -1950,7 +1950,7 @@ audio_group_stop_all(music)
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>mus_credits</sound>
+            <sound>&lt;undefined&gt;</sound>
           </argument>
           <argument>
             <kind>3</kind>

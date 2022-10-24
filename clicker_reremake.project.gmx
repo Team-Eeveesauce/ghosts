@@ -3,114 +3,16 @@
   <Configs name="configs">
     <Config>Configs\Default</Config>
   </Configs>
-  <datafiles number="8" name="datafiles">
-    <datafile>
-      <name>discord_rich_presence.dll</name>
-      <exists>0</exists>
-      <size>0</size>
-      <exportAction>2</exportAction>
-      <exportDir></exportDir>
-      <overwrite>0</overwrite>
-      <freeData>-1</freeData>
-      <removeEnd>0</removeEnd>
-      <store>0</store>
-      <ConfigOptions>
-        <Config name="Default">
-          <CopyToMask>9223372036854775807</CopyToMask>
-        </Config>
-      </ConfigOptions>
-      <filename>discord_rich_presence.dll</filename>
-    </datafile>
-    <datafile>
-      <name>discord-rpc.dll</name>
-      <exists>0</exists>
-      <size>0</size>
-      <exportAction>2</exportAction>
-      <exportDir></exportDir>
-      <overwrite>0</overwrite>
-      <freeData>-1</freeData>
-      <removeEnd>0</removeEnd>
-      <store>0</store>
-      <ConfigOptions>
-        <Config name="Default">
-          <CopyToMask>9223372036854775807</CopyToMask>
-        </Config>
-      </ConfigOptions>
-      <filename>discord-rpc.dll</filename>
-    </datafile>
-    <datafile>
-      <name>him.png</name>
-      <exists>-1</exists>
-      <size>40742</size>
-      <exportAction>2</exportAction>
-      <exportDir></exportDir>
-      <overwrite>0</overwrite>
-      <freeData>-1</freeData>
-      <removeEnd>0</removeEnd>
-      <store>0</store>
-      <ConfigOptions>
-        <Config name="Default">
-          <CopyToMask>9223372036854775807</CopyToMask>
-        </Config>
-      </ConfigOptions>
-      <filename>him.png</filename>
-    </datafile>
-  </datafiles>
+  <datafiles number="8" name="datafiles"/>
   <NewExtensions>
     <extension index="0">extensions\Realistic Explosions Pack</extension>
-    <extension index="1">extensions\minigames</extension>
   </NewExtensions>
   <sounds name="sound">
-    <sounds name="music">
-      <sound>sound\mus_level0</sound>
-      <sound>sound\mus_level1</sound>
-      <sound>sound\mus_level2</sound>
-      <sound>sound\mus_level3</sound>
-      <sound>sound\mus_level4</sound>
-      <sound>sound\mus_level5</sound>
-      <sound>sound\mus_level6</sound>
-      <sound>sound\mus_level7</sound>
-      <sound>sound\mus_level8</sound>
-      <sound>sound\mus_level9</sound>
-      <sound>sound\mus_level10</sound>
-      <sound>sound\mus_level11</sound>
-      <sound>sound\mus_level12</sound>
-      <sound>sound\mus_nft</sound>
-    </sounds>
-    <sound>sound\mus_credits</sound>
     <sound>sound\snd_badexplosion</sound>
-    <sound>sound\snd_amogus</sound>
-    <sound>sound\mus_bigtony</sound>
   </sounds>
   <sprites name="sprites">
-    <sprites name="ghosts">
-      <sprite>sprites\spr_ghost_1</sprite>
-      <sprite>sprites\spr_ghost_1_worried</sprite>
-      <sprite>sprites\spr_ghost_1_scared</sprite>
-      <sprite>sprites\spr_ghost_protest</sprite>
-      <sprite>sprites\spr_ghost_2</sprite>
-      <sprite>sprites\spr_ghost_3</sprite>
-      <sprite>sprites\spr_ghost_4</sprite>
-      <sprite>sprites\spr_ghost_5</sprite>
-      <sprite>sprites\spr_ghost_decoy</sprite>
-      <sprite>sprites\spr_ghost_amogus</sprite>
-      <sprite>sprites\spr_ghost_boss</sprite>
-      <sprite>sprites\spr_civilian_1</sprite>
-      <sprite>sprites\spr_civilian_2</sprite>
-    </sprites>
-    <sprites name="gore">
-      <sprite>sprites\spr_ghost1_gore</sprite>
-      <sprite>sprites\spr_ghost2_gore</sprite>
-      <sprite>sprites\spr_ghost3_gore</sprite>
-      <sprite>sprites\spr_ghost4_gore</sprite>
-      <sprite>sprites\spr_ghost_amogus_gore</sprite>
-      <sprite>sprites\spr_boss_gore</sprite>
-    </sprites>
     <sprites name="other">
-      <sprite>sprites\spr_tutorial1</sprite>
       <sprite>sprites\spr_tutorial2</sprite>
-      <sprite>sprites\spr_foxears_nwn</sprite>
-      <sprite>sprites\spr_foxears_bruh</sprite>
       <sprite>sprites\spr_bitman</sprite>
       <sprite>sprites\spr_advertwindow</sprite>
       <sprite>sprites\spr_advert</sprite>
@@ -124,24 +26,6 @@
       <sprite>sprites\spr_spritesandprogramming</sprite>
       <sprite>sprites\spr_theend</sprite>
     </sprites>
-    <sprites name="minigames">
-      <sprites name="desktop">
-        <sprite>sprites\spr_cloud1</sprite>
-        <sprite>sprites\spr_cloud2</sprite>
-        <sprite>sprites\spr_gradient</sprite>
-        <sprite>sprites\spr_hill</sprite>
-        <sprite>sprites\spr_layer</sprite>
-      </sprites>
-      <sprites name="bitman">
-        <sprite>sprites\spr_scammer</sprite>
-        <sprite>sprites\spr_grass</sprite>
-        <sprite>sprites\spr_bitman_anim</sprite>
-      </sprites>
-      <sprites name="vvvvvv">
-        <sprite>sprites\spr_vvvvvvman</sprite>
-        <sprite>sprites\spr_vvvvvvman_flipped</sprite>
-      </sprites>
-    </sprites>
     <sprites name="scores">
       <sprite>sprites\spr_plus0</sprite>
       <sprite>sprites\spr_plus10</sprite>
@@ -154,28 +38,15 @@
     <sprite>sprites\spr_tile</sprite>
     <sprite>sprites\spr_play</sprite>
     <sprite>sprites\spr_explosion_1</sprite>
-    <sprite>sprites\spr_button</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
-  <scripts name="scripts">
-    <scripts name="DiscordRichPresenceScripts">
-      <script>scripts\discord_init_dll.gml</script>
-      <script>scripts\discord_init_app.gml</script>
-      <script>scripts\discord_update_presence.gml</script>
-      <script>scripts\discord_free_app.gml</script>
-      <script>scripts\discord_free_dll.gml</script>
-    </scripts>
-  </scripts>
+  <scripts name="scripts"/>
   <objects name="objects">
     <objects name="ghosts">
       <object>objects\obj_menu_ghost</object>
       <object>objects\obj_tutorial_ghost</object>
       <object>objects\obj_ghost_1</object>
-      <object>objects\obj_ghost_1_scared</object>
-      <object>objects\obj_ghost_shittingitsfuckingpants</object>
-      <object>objects\obj_ghost_protest_menu</object>
-      <object>objects\obj_ghost_protest</object>
       <object>objects\obj_ghost_2</object>
       <object>objects\obj_ghost_3</object>
       <object>objects\obj_ghost_4</object>
@@ -185,22 +56,12 @@
       <object>objects\obj_civilian_1</object>
       <object>objects\obj_civilian_2</object>
     </objects>
-    <objects name="gore">
-      <object>objects\obj_ghost1_gore</object>
-      <object>objects\obj_ghost2_gore</object>
-      <object>objects\obj_ghost3_gore</object>
-      <object>objects\obj_ghost4_gore</object>
-      <object>objects\obj_ghost_amogus_gore</object>
-      <object>objects\obj_boss_gore</object>
-    </objects>
     <objects name="other">
       <object>objects\obj_tutorial1</object>
       <object>objects\obj_tutorial2</object>
-      <object>objects\obj_foxears</object>
       <object>objects\obj_bitman</object>
       <object>objects\obj_advertwindow</object>
       <object>objects\obj_advert</object>
-      <object>objects\obj_dont</object>
     </objects>
     <objects name="credits">
       <object>objects\obj_title</object>
@@ -209,26 +70,6 @@
       <object>objects\obj_englishguy4</object>
       <object>objects\obj_spritesandprogramming</object>
       <object>objects\obj_theend</object>
-    </objects>
-    <objects name="minigames">
-      <objects name="desktop">
-        <object>objects\obj_cloud1</object>
-        <object>objects\obj_cloud2</object>
-        <object>objects\obj_gradient</object>
-        <object>objects\obj_hill</object>
-        <object>objects\obj_layer</object>
-        <object>objects\obj_stopper</object>
-      </objects>
-      <objects name="bitman">
-        <object>objects\obj_scammer</object>
-        <object>objects\obj_grass</object>
-        <object>objects\obj_bitman_m</object>
-      </objects>
-      <objects name="vvvvvv">
-        <object>objects\obj_vvvvvvman</object>
-        <object>objects\obj_vvvvvvman2</object>
-        <object>objects\obj_vvvvvvman_flipped</object>
-      </objects>
     </objects>
     <objects name="scores">
       <object>objects\obj_plus0</object>
@@ -245,19 +86,10 @@
     <object>objects\obj_leftwall</object>
     <object>objects\obj_highscores</object>
     <object>objects\obj_explosion_1</object>
-    <object>objects\obj_explosion_amogus</object>
-    <object>objects\obj_button1</object>
-    <object>objects\obj_button2</object>
+    <object>objects\obj_gore</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\levelbeforemenu</room>
-    <room>rooms\leveloptions</room>
-    <rooms name="minigames">
-      <room>rooms\load_desktop</room>
-      <room>rooms\bitman</room>
-      <room>rooms\vvvvvv</room>
-      <room>rooms\what_where_am_i_im_lost_anc_confused_help_where_do_i_go</room>
-    </rooms>
     <room>rooms\levelnft</room>
     <room>rooms\levelmenu</room>
     <rooms name="levels">

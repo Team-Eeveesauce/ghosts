@@ -161,7 +161,6 @@
     <instance objName="obj_civilian_2" x="432" y="208" name="inst_6BC92E9B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_civilian_2" x="192" y="112" name="inst_B184F6F9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_advertwindow" x="496" y="320" name="inst_1072F996" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_ghost_protest" x="496" y="336" name="inst_13E2E1A8" locked="0" code="" scaleX="1.375" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

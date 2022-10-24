@@ -119,9 +119,7 @@
     <instance objName="obj_rightwall" x="624" y="400" name="inst_02335DE2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_rightwall" x="624" y="432" name="inst_C7A077AB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_rightwall" x="624" y="464" name="inst_0E0FA857" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_ghost_protest_menu" x="112" y="384" name="inst_5F38CF2A" locked="0" code="" scaleX="1.31496059894562" scaleY="1.31496059894562" colour="4294967295" rotation="0"/>
     <instance objName="obj_highscores" x="480" y="384" name="inst_1536A6B2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_foxears" x="240" y="400" name="inst_BCA15CA8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
