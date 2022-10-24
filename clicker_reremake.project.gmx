@@ -57,7 +57,6 @@
       <object>objects\obj_civilian_2</object>
     </objects>
     <objects name="other">
-      <object>objects\obj_tutorial1</object>
       <object>objects\obj_tutorial2</object>
       <object>objects\obj_bitman</object>
       <object>objects\obj_advertwindow</object>
