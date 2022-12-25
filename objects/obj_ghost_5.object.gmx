@@ -55,19 +55,25 @@
             <kind>1</kind>
             <string>// if minion is too close to player, activate super-saiyan mode
 
-if (point_distance(x, y, mouse_x, mouse_y) &lt; 75 ) {
-    if global.miniontime = 0 {
-        global.miniontime = 1
-        audio_pause_all();
-        audio_play_sound(mus_bigtony,10,true);
-    }
+if (point_distance(x, y, mouse_x, mouse_y) &lt; 75 ){
+    global.miniontime = 1;
 }
 else
 {
-    global.miniontime = 0
-    audio_resume_all();
-    audio_stop_sound(mus_bigtony);
+    global.miniontime = 0;
+};
+
+// if minion is way too close to player, activate supermode
+if (point_distance(x, y, mouse_x, mouse_y) &lt; 30 ){
+    global.statictime = true;
+    debug_event("static");
+    audio_play_sound(snd_static,2,true);
 }
+else
+{
+    global.statictime = false;
+    audio_stop_sound(snd_static);
+};
 </string>
           </argument>
         </arguments>
@@ -264,7 +270,7 @@ else
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>When in contact with mouse, restart level</string>
+            <string>When in contact with mouse, cause panic</string>
           </argument>
         </arguments>
       </action>
@@ -288,47 +294,9 @@ else
           </argument>
           <argument>
             <kind>0</kind>
-            <string>-70</string>
+            <string>-1</string>
           </argument>
         </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>611</id>
-        <kind>6</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>global.remaining</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>0</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>223</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_current_room</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
       </action>
     </event>
   </events>

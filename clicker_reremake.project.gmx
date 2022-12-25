@@ -59,6 +59,7 @@
   <NewExtensions>
     <extension index="0">extensions\Realistic Explosions Pack</extension>
     <extension index="1">extensions\minigames</extension>
+    <extension index="2">extensions\ghosts update</extension>
   </NewExtensions>
   <sounds name="sound">
     <sounds name="music">
@@ -75,12 +76,19 @@
       <sound>sound\mus_level10</sound>
       <sound>sound\mus_level11</sound>
       <sound>sound\mus_level12</sound>
+      <sound>sound\mus_dlc1</sound>
+      <sound>sound\mus_dlc2</sound>
+      <sound>sound\mus_dlc3</sound>
+      <sound>sound\mus_dlc4</sound>
+      <sound>sound\mus_dlc5</sound>
       <sound>sound\mus_nft</sound>
+      <sound>sound\mus_sadness</sound>
     </sounds>
     <sound>sound\mus_credits</sound>
     <sound>sound\snd_badexplosion</sound>
     <sound>sound\snd_amogus</sound>
     <sound>sound\mus_bigtony</sound>
+    <sound>sound\snd_static</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="ghosts">
@@ -155,6 +163,9 @@
     <sprite>sprites\spr_play</sprite>
     <sprite>sprites\spr_explosion_1</sprite>
     <sprite>sprites\spr_button</sprite>
+    <sprite>sprites\spr_next</sprite>
+    <sprite>sprites\spr_dim</sprite>
+    <sprite>sprites\spr_static</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -248,7 +259,9 @@
     <object>objects\obj_explosion_amogus</object>
     <object>objects\obj_button1</object>
     <object>objects\obj_button2</object>
+    <object>objects\obj_dim</object>
   </objects>
+  <timelines name="timelines"/>
   <rooms name="rooms">
     <room>rooms\levelbeforemenu</room>
     <room>rooms\leveloptions</room>

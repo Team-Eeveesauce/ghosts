@@ -11,9 +11,9 @@
     <event eventtype="3" enumb="0">
       <action>
         <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
         <exetype>2</exetype>
@@ -25,25 +25,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if global.miniontime = 1
-{
-    if itwasntalreadyon = true
-    {
-        instance_create(0,0,obj_dim);
-        itwasntalreadyon = false;
-        debug_event("ayo its minion time");
-        audio_sound_pitch(global.musicplaying,0.5);
-    }
-}
-else
-{
-    instance_destroy(obj_dim);
-    itwasntalreadyon = true;
-    debug_event("minion time is over :(");
-    audio_stop_sound(snd_static);
-    audio_sound_pitch(global.musicplaying,1);
-};
-</string>
+            <string>global.miniontime</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
           </argument>
         </arguments>
       </action>
@@ -237,82 +223,7 @@ else
         <arguments>
           <argument>
             <kind>2</kind>
-            <string>Hey there! I couldn't help but notice that you finished my game! I worked somewhat hard on it and had a lot of fun making it, so please do tell me if you enjoyed it or not! Don't worry, I won't be offended... much.     -- EnglishGuy4</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>highscore_add("Player", global.points);
-discord_update_presence("Score: " + string(global.points),"In the menu","icon","");
-
-</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>541</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_sprite_set</functionname>
-        <codestring></codestring>
-        <whoName>obj_menu_ghost</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>5</kind>
-            <sprite>spr_ghost_1_worried</sprite>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>0</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>0.4</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>611</id>
-        <kind>6</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>global.completed</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>1</string>
+            <string>burunyuu</string>
           </argument>
         </arguments>
       </action>
@@ -337,46 +248,6 @@ discord_update_presence("Score: " + string(global.points),"In the menu","icon","
           <argument>
             <kind>0</kind>
             <string>1</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>212</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_end_sound</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>6</kind>
-            <sound>mus_credits</sound>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>224</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_another_room</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>11</kind>
-            <room>levelmenu</room>
           </argument>
         </arguments>
       </action>
@@ -452,6 +323,72 @@ discord_update_presence("Score: " + string(global.points),"In the menu","icon","
     <event eventtype="7" enumb="4">
       <action>
         <libid>1</libid>
+        <id>605</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>0</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>music player</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>// remove the effects of miniontime
+audio_sound_pitch(mus_gameplay,1);
+
+// identify what room this is and play the correct song, or no song at all
+switch (room)
+{
+    case level_story1:
+    case level_story2:
+    case level_story3:
+    case level_story4:
+    // if this is one of them fancy "story" levels, then play nirvana
+        if not audio_is_playing(mus_nirvana) {
+            audio_group_stop_all(music);
+            audio_play_sound(mus_nirvana,1,true);
+        }
+    break;
+
+    default:
+    // play the other music in every other room
+        if not audio_is_playing(mus_gameplay) {
+            audio_group_stop_all(music);
+            audio_play_sound(mus_gameplay,1,true);
+        }
+} 
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="7" enumb="2">
+      <action>
+        <libid>1</libid>
         <id>611</id>
         <kind>6</kind>
         <userelative>-1</userelative>
@@ -466,7 +403,79 @@ discord_update_presence("Score: " + string(global.points),"In the menu","icon","
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.miniontime</string>
+            <string>global.points</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>global.remaining</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>1</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>global.completed</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>global.particles</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -490,133 +499,7 @@ discord_update_presence("Score: " + string(global.points),"In the menu","icon","
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>// reset miniomtime
-global.miniontime = 0;
-itwasntalreadyon = true;
-
-// stop all music
-audio_group_stop_all(music)
-
-// remove the effects of miniontime
-audio_sound_pitch(global.musicplaying,1);
-
-// identify what room this is and play the correct song
-switch (room)
-{
-    case levelnft:
-        global.musicplaying = mus_nft;
-        discord_update_presence("Score: " + string(global.points),"Level 1","icon","");
-    break;
-    
-    case levelmenu:
-        global.musicplaying = mus_level0;
-        discord_update_presence("Score: " + string(global.points),"Level 1","icon","");
-    break;
-    
-    case level1:
-        global.musicplaying = mus_level1;
-        discord_update_presence("Score: " + string(global.points),"Level 1","icon","");
-    break;
-    
-    case level2:
-        global.musicplaying = mus_level2;
-        discord_update_presence("Score: " + string(global.points),"Level 2","icon","");
-    break;
-    
-    case level3:
-        global.musicplaying = mus_level3;
-        discord_update_presence("Score: " + string(global.points),"Level 3","icon","");
-    break;
-    
-    case level4:
-        global.musicplaying = mus_level4;
-        discord_update_presence("Score: " + string(global.points),"Level 4","icon","");
-    break;
-    
-    case level5:
-        global.musicplaying = mus_level5;
-        discord_update_presence("Score: " + string(global.points),"Level 5","icon","");
-    break;
-    
-    case level6:
-        global.musicplaying = mus_level6;
-        discord_update_presence("Score: " + string(global.points),"Level 6","icon","");
-    break;
-    
-    case level7:
-        global.musicplaying = mus_level7;
-        discord_update_presence("Score: " + string(global.points),"Level 7","icon","");
-    break;
-    
-    case level8:
-        global.musicplaying = mus_level8;
-        discord_update_presence("Score: " + string(global.points),"Level 8","icon","");
-    break;
-    
-    case level9:
-        global.musicplaying = mus_level9;
-        discord_update_presence("Score: " + string(global.points),"Level 9","icon","");
-    break;
-    
-    case level10:
-        global.musicplaying = mus_level10;
-        discord_update_presence("Score: " + string(global.points),"Level 10","icon","");
-    break;
-    
-    case level11:
-        global.musicplaying = mus_level11;
-        discord_update_presence("Score: " + string(global.points),"Level 11","icon","");
-    break;
-    
-    case level12:
-        global.musicplaying = mus_level12;
-        discord_update_presence("Score: " + string(global.points),"Level 12","icon","");
-    break;
-    
-    case levelcredits1:
-        global.musicplaying = mus_credits;
-        discord_update_presence("Score: " + string(global.points),"Finished the game","icon","ghost_boss");
-    break;
-} 
-
-if global.musicplaying = "none"
-    {
-        audio_stop_all();
-    } else {
-        audio_play_sound(global.musicplaying,1,true);
-    };
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="7" enumb="2">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>audio_group_load(music);
-
-global.points = 0;
-global.remaining = 1;
-global.completed = 0;
-global.particles = 0;
-global.musicplaying = "none";
-global.statictime = false;
-itwasntalreadyon = true;
-italsowasntalreadyon = true;
+            <string>audio_group_load(music)
 </string>
           </argument>
         </arguments>
