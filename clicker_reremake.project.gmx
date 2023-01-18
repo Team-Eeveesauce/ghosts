@@ -261,7 +261,6 @@
     <object>objects\obj_button2</object>
     <object>objects\obj_dim</object>
   </objects>
-  <timelines name="timelines"/>
   <rooms name="rooms">
     <room>rooms\levelbeforemenu</room>
     <room>rooms\leveloptions</room>

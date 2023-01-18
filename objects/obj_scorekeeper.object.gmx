@@ -452,30 +452,6 @@ discord_update_presence("Score: " + string(global.points),"In the menu","icon","
     <event eventtype="7" enumb="4">
       <action>
         <libid>1</libid>
-        <id>611</id>
-        <kind>6</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>global.miniontime</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>0</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
         <id>603</id>
         <kind>7</kind>
         <userelative>0</userelative>
@@ -494,8 +470,6 @@ discord_update_presence("Score: " + string(global.points),"In the menu","icon","
 global.miniontime = 0;
 itwasntalreadyon = true;
 
-// stop all music
-audio_group_stop_all(music)
 
 // remove the effects of miniontime
 audio_sound_pitch(global.musicplaying,1);
@@ -504,77 +478,142 @@ audio_sound_pitch(global.musicplaying,1);
 switch (room)
 {
     case levelnft:
+        // stop all music
+        audio_group_stop_all(music)
+        // play correct music
         global.musicplaying = mus_nft;
         discord_update_presence("Score: " + string(global.points),"Level 1","icon","");
     break;
     
     case levelmenu:
+        // stop all music
+        audio_group_stop_all(music)
+        // play correct music
         global.musicplaying = mus_level0;
         discord_update_presence("Score: " + string(global.points),"Level 1","icon","");
     break;
     
     case level1:
+        // stop all music
+        audio_group_stop_all(music)
+        // play correct music
         global.musicplaying = mus_level1;
         discord_update_presence("Score: " + string(global.points),"Level 1","icon","");
     break;
     
     case level2:
+        // stop all music
+        audio_group_stop_all(music)
+        // play correct music
         global.musicplaying = mus_level2;
         discord_update_presence("Score: " + string(global.points),"Level 2","icon","");
     break;
     
     case level3:
+        // stop all music
+        audio_group_stop_all(music)
+        // play correct music
         global.musicplaying = mus_level3;
         discord_update_presence("Score: " + string(global.points),"Level 3","icon","");
     break;
     
     case level4:
+        // stop all music
+        audio_group_stop_all(music)
+        // play correct music
         global.musicplaying = mus_level4;
         discord_update_presence("Score: " + string(global.points),"Level 4","icon","");
     break;
     
     case level5:
+        // stop all music
+        audio_group_stop_all(music)
+        // play correct music
         global.musicplaying = mus_level5;
         discord_update_presence("Score: " + string(global.points),"Level 5","icon","");
     break;
     
     case level6:
+        // stop all music
+        audio_group_stop_all(music)
+        // play correct music
         global.musicplaying = mus_level6;
         discord_update_presence("Score: " + string(global.points),"Level 6","icon","");
     break;
     
     case level7:
+        // stop all music
+        audio_group_stop_all(music)
+        // play correct music
         global.musicplaying = mus_level7;
         discord_update_presence("Score: " + string(global.points),"Level 7","icon","");
     break;
     
     case level8:
+        // stop all music
+        audio_group_stop_all(music)
+        // play correct music
         global.musicplaying = mus_level8;
         discord_update_presence("Score: " + string(global.points),"Level 8","icon","");
     break;
     
     case level9:
+        // stop all music
+        audio_group_stop_all(music)
+        // play correct music
         global.musicplaying = mus_level9;
         discord_update_presence("Score: " + string(global.points),"Level 9","icon","");
     break;
     
     case level10:
+        // stop all music
+        audio_group_stop_all(music)
+        // play correct music
         global.musicplaying = mus_level10;
         discord_update_presence("Score: " + string(global.points),"Level 10","icon","");
     break;
     
     case level11:
+        // stop all music
+        audio_group_stop_all(music)
+        // play correct music
         global.musicplaying = mus_level11;
         discord_update_presence("Score: " + string(global.points),"Level 11","icon","");
     break;
     
     case level12:
+        // stop all music
+        audio_group_stop_all(music)
+        // play correct music
         global.musicplaying = mus_level12;
         discord_update_presence("Score: " + string(global.points),"Level 12","icon","");
     break;
     
+    case levelwin:
+        global.musicplaying = "stay";
+        discord_update_presence("Score: " + string(global.points),"Defeating the boss","icon","ghost_boss");
+    break;
+    
     case levelcredits1:
+        // stop all music
+        audio_group_stop_all(music)
+        // play correct music
         global.musicplaying = mus_credits;
+        discord_update_presence("Score: " + string(global.points),"Finished the game","icon","ghost_boss");
+    break;
+    
+    case levelcredits2:
+        global.musicplaying = "stay";
+        discord_update_presence("Score: " + string(global.points),"Finished the game","icon","ghost_boss");
+    break;
+    
+    case levelcredits3:
+        global.musicplaying = "stay";
+        discord_update_presence("Score: " + string(global.points),"Finished the game","icon","ghost_boss");
+    break;
+    
+    case levelcreditsend:
+        global.musicplaying = "stay";
         discord_update_presence("Score: " + string(global.points),"Finished the game","icon","ghost_boss");
     break;
 } 
@@ -582,6 +621,8 @@ switch (room)
 if global.musicplaying = "none"
     {
         audio_stop_all();
+    } else if global.musicplaying = "stay" {
+        // do nothing
     } else {
         audio_play_sound(global.musicplaying,1,true);
     };
