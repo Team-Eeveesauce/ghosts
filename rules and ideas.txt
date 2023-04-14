@@ -1,0 +1,18 @@
+rules of ghosts:
+- no mechanic should need a tutorial to explain
+- do not introduce too much at the same time
+- nothing should make the game easier (unless its for accessibility purposes)
+
+
+post-game ideas:
+- after you finish the game, you can unlock a button that "crashes" the game and takes you to a fake desktop with minigames
+- MINIGAME: click the ghosts 2, with cookie clicker minigame, health bars, and guns
+- MINIGAME: visual novel sequence where you either romance the ghosts, or the ghosts summon a giant pointer to click YOU.
+- MINIGAME: vvvvvv test, clearly work in progress
+- MINIGAME: platformer with 3 levels and then it crashes with a fake gms error
+- hidden lore and behind the scenes stuff
+- instead of fixing the minion bug, acknowledge it in a todo text file.
+- cheats menu, ability to toggle "epic graphics (experimental)" and backspace shortcut.
+- gamemaker shortcut
+- taskbar with shutdown option that actually closes the game
+- every time you reopen the game you see the fake desktop
